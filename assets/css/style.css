@@ -1,25 +1,32 @@
 body {
-  background-color: #ededed;
   width: 960px;
   font-family: Georgia, Times, "Times New Roman",serif;
   margin: 0px 20px 0px 20px
 }
 
 h2 {
-  color: #00aea7;
+  color: #4aaaa5;
 }
 
 h3 {
-  color: #00aea7;
+  color: #4aaaa5;
   float: center;
 }
 
-a {text-decoration: none; }
+a {
+  text-decoration: none; 
+  color: #777777;
+}
+
+p {
+  color:#777777;
+}
 
 footer {
   background-color: #666666;
   height:100px;
-  border-top: 10px solid #00aea7;
+  border-top: 10px solid #4aaaa5;
+  clear: both;
 }
 
 footer p {
@@ -31,7 +38,7 @@ footer p {
 }
 
 button{
-  background-color: #00aea7;
+  background-color: #4aaaa5;
   color: #f0f0f0;
   font-size: 18px;
 }
@@ -44,7 +51,7 @@ form{
   background-color: white;
   width: 960px;
   height: 75px;
-  border-bottom: 2px solid #666666;
+  border-bottom: 2px solid #cccccc;
   margin: 0;
   padding: 2px 0px 0px 0px;
 }
@@ -52,7 +59,6 @@ form{
 .nav-item-list{
   float: right;
   padding: 35px 35px;
-  color: #5c5d5e;
   text-decoration: none;
 }
 
@@ -60,17 +66,19 @@ form{
   float: right;
   margin-right: 5px;
   text-decoration: none;
-  color: #5c5d5e;
 }
 
 .name{
   float: left;
-  background-color: #00aea7; 
+  background-color: #4aaaa5; 
   text-align: center;
   color: white;
-  height: 55px;
-  margin-left: 50px;
-  padding-top: 20px;
+  height: 45px;
+  margin-left: 55px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 24px;
 }
 
 .form-box {
@@ -81,13 +89,13 @@ form{
 
 .gallery{
   width: 100%;
-  margin: 10px 10px;
 }
 
 .container {
   width: 960px;
   height: 650px;
   margin: 0px auto;
+  background-color: #f0f0f0; 
 }
 
 .profilePhoto {
@@ -100,8 +108,8 @@ form{
 .left-side {
   width: 500px;
   background-color: #ffffff;
-  margin: 25px 55px;
-  padding: 10px 15px 10px 15px;
+  margin: 25px 55px 0px 55px;
+  padding: 10px 10px 10px 15px;
   float: left;
   border: 1px solid #ededed;
 }
@@ -109,8 +117,8 @@ form{
 .right-side {
   width: 200px;
   background-color: #ffffff;
-  margin: 25px 30px;
-  padding: 10px 15px 10px 15px;
+  margin: 25px 55px 0px 10px;
+  padding: 15px 15px 15px 15px;
   text-align: center;
   float: right;
   border: 1px solid #ededed;
@@ -127,7 +135,7 @@ form{
 
 .hr-left {
   width: 465px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .hr-right {
@@ -137,18 +145,23 @@ form{
 }
 
 .banner{
-  background-color: green;
+  background-color: #4aaaa5;
   position: relative;
-  bottom: 50px;
-  right: -11px;
+  bottom: 70px;
   width: 100%;
+  height: 40px;
   z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
 
 .img-container{
   float: left;
-  width: 40%;
-  margin: 5px 5px;
+  width: 45%;
+  height: 150px;
+  margin: 20px 10px;
+
 }
 
 .all-images{
