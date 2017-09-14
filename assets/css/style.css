@@ -35,19 +35,22 @@ footer {
 footer p {
     display: table;
     text-align: center;
+    color: white;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    color: #f0f0f0
 }
 
 button{
   background-color: #4aaaa5;
   color: #f0f0f0;
   font-size: 18px;
+  border: none;
 }
 
 form{
   text-align: left;
+  color: #777777;
 }
 
 .header-container {
@@ -87,8 +90,9 @@ form{
 
 .form-box {
   width: 100%;
-  margin: 5px 0px;
+  margin: 10px 0px;
   text-align: left;
+  color: #777777;
 }
 
 .gallery{
