@@ -27,6 +27,7 @@ a {
 
 p {
   color:#777777;
+  word-spacing: 2px;
 }
 
 footer {
@@ -70,7 +71,7 @@ form{
   width: 500px;
   background-color: #ffffff;
   margin: 25px 20px 0px 55px;
-  padding: 10px 15px 10px 15px;
+  padding: 30px 20px 10px 20px;
   float: left;
   border: 1px solid #ededed;
 }
@@ -152,6 +153,10 @@ form{
   padding: 0px 5px 5px 5px;
   margin: 0px 10px 10px 10px; 
 
+}
+
+.left-side-paragraph {
+  line-height: 1.5; 
 }
 
 /*contact.html specific*/
