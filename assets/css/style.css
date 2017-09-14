@@ -147,6 +147,10 @@ form{
   font-weight: bold;
 }
 
+a:hover{
+  background-color: #4aaaa5;
+}
+
 /*index.html specific*/
 .profilePhoto {
   float: left;
