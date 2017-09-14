@@ -1,7 +1,11 @@
+/*style.css is organized first by HTML tags and is followed
+by classes. */
+
 body {
   width: 960px;
+  height: 845px;
   font-family: Georgia, Times, "Times New Roman",serif;
-  margin: 0px 20px 0px 20px
+  margin: 0px 20px 0px 20px;
 }
 
 h2 {
@@ -30,6 +34,7 @@ footer {
   height:100px;
   border-top: 10px solid #4aaaa5;
   clear: both;
+  position: relative;
 }
 
 footer p {
@@ -53,64 +58,12 @@ form{
   color: #777777;
 }
 
-.header-container {
-  background-color: white;
-  width: 960px;
-  height: 75px;
-  border-bottom: 2px solid #cccccc;
-  margin: 0;
-  padding: 2px 0px 0px 0px;
-}
-
-.nav-item-list{
-  float: right;
-  padding: 35px 55px 35px 0px;
-  text-decoration: none;
-}
-
-.nav-item {
-  float: right;
-  margin-right: 5px;
-  text-decoration: none;
-}
-
-.name{
-  float: left;
-  background-color: #4aaaa5; 
-  text-align: center;
-  color: white;
-  height: 45px;
-  margin-left: 55px;
-  padding-top: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.form-box {
-  width: 100%;
-  margin: 10px 0px;
-  text-align: left;
-  color: #777777;
-}
-
-.gallery{
-  width: 100%;
-}
-
+/*static on each page*/
 .container {
   width: 960px;
   height: 650px;
   margin: 0px auto;
   background-color: #f0f0f0; 
-}
-
-.profilePhoto {
-  float: left;
-  padding: 0px 5px 5px 5px;
-  margin: 0px 10px 10px 10px; 
-
 }
 
 .left-side {
@@ -126,7 +79,7 @@ form{
   width: 200px;
   background-color: #ffffff;
   margin: 25px 55px 0px 20px;
-  padding: 15px 15px 15px 15px;
+  padding: 20px;
   text-align: center;
   float: right;
   border: 1px solid #ededed;
@@ -147,9 +100,72 @@ form{
 }
 
 .hr-right {
-  float: center;
-  width: 140px;
+  width: 100%;
+  margin-bottom: 5px;
 
+}
+
+/*Header classes*/
+
+.header-container {
+  background-color: white;
+  width: 960px;
+  height: 75px;
+  border-bottom: 2px solid #cccccc;
+  margin: 0;
+  padding: 2px 0px 0px 0px;
+}
+
+.nav-item-list{
+  float: right;
+  padding: 35px 55px 35px 0px;
+  text-decoration: none;
+}
+
+.nav-item {
+  float: right;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-item-bar{
+  color: #e5e5e5;
+}
+
+.name{
+  float: left;
+  background-color: #4aaaa5; 
+  text-align: center;
+  color: white;
+  height: 45px;
+  margin-left: 55px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*index.html specific*/
+.profilePhoto {
+  float: left;
+  padding: 0px 5px 5px 5px;
+  margin: 0px 10px 10px 10px; 
+
+}
+
+/*contact.html specific*/
+.form-box {
+  width: 100%;
+  margin: 10px 0px;
+  text-align: left;
+  color: #777777;
+}
+
+/*portfolio.html specific*/
+
+.gallery{
+  width: 100%;
 }
 
 .banner{
@@ -171,3 +187,9 @@ form{
   margin: 20px 10px;
 
 }
+
+
+/*playing with a sticky footer*/
+/*.footer-content {
+  flex: 1 0 auto;
+}*/
